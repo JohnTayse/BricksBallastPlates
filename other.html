@@ -4,69 +4,131 @@
 		<title>Other - Bricks Ballast Plates</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
 		<link href="style.css" rel="stylesheet"/>
 	</head>
 <body class="bg-dark">
-	<main role="main"  class="container">
-		<h1>Bricks Ballast Plates</h1>
-		<p></p>
-		<h2>Other</h2>
-		<em>All other track items. Points require an A piece, a B piece, and a <a href="straights.html">half-straight</a>.</em>
+	<main role="main">
 		<div class="container">
-			<h3>Crossing 90 degress</h3>
-			<div class="row" id="cross90">
-				<div class="col">
-				Images
-				</div>
-				<div class="col">
-				Notes
-				</div>
-				<div class="col">
-				Link
-				</div>
-			</div>
-			<h3>Point R40 Left</h3>
-			<div class="row" id="pointr40l">
-				<div class="col">
-				Images
-				</div>
-				<div class="col">
-				Notes
-				</div>
-				<div class="col">
-				Link
-				</div>
-			</div>
-			<h3>Point R40 Right</h3>
-			<div class="row" id="pointr40r">
-				<div class="col">
-				Images
-				</div>
-				<div class="col">
-				Notes
-				</div>
-				<div class="col">
-				Link
-				</div>
-			</div>
+			<h1>Bricks Ballast Plates</h1>
 		</div>
-		<ul class="nav">
-			<li class="nav-item">
-				<a class="nav-link" href="index.html">Home</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="straights.html">Straights</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="curves.html">Curves</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link active" aria-current="page" href="other.html">Other</a>
-			</li>
-		</ul>
+		<div class="spotlight" style="background-image: url(pics/otherstrack.jpg);"></div>
+		<div class="container">
+			<h2>Other</h2>
+			<em>All other track items.</em>
+			<div class="container">
+				<div class="row">
+					<div class="card" style="width: 18rem;">
+						<div id="x90Carousel" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="pics/crossing90plate.jpg" class="card-img-top" alt="Lego-compatible 90 degree crossing ballast plate">
+								</div>
+								<div class="carousel-item">
+									<img src="pics/crossing90track.jpg" class="card-img-top" alt="Lego-compatible 90 degree crossing ballast plate and track">
+								</div>
+								<div class="carousel-item">
+									<img src="pics/crossing90ballast.jpg" class="card-img-top" alt="Lego-compatible 90 degree crossing ballast plate and track ballasted">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#x90Carousel" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#x90Carousel" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Crossing 90 Degrees</h5>
+							<p class="card-text">Plate for 9V-era crossing.</p>
+						</div>
+						<div class="card-body">
+							<a href="files/Crossing90Degree.stl" class="card-link" download>STL File</a>
+						</div>
+					</div>
+					<div class="card" style="width: 18rem;">
+						<div id="p40lCarousel" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="pics/pointr40lplate.jpg" class="card-img-top" alt="Lego-compatible point r40 left ballast plate">
+								</div>
+								<div class="carousel-item">
+									<img src="pics/pointr40ltrack.jpg" class="card-img-top" alt="Lego-compatible point r40 left ballast plate and track">
+								</div>
+								<div class="carousel-item">
+									<img src="pics/pointr40lballast.jpg" class="card-img-top" alt="Lego-compatible point r40 left ballast plate and track ballasted">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#p40lCarousel" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#p40lCarousel" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Point R40 Left</h5>
+							<p class="card-text">Requires A, B, and <a href="straights.html">half-straight</a>.</p>
+						</div>
+						<div class="card-body">
+							<a href="files/PointR40LeftA.stl" class="card-link" download>STL File A</a>
+							<a href="files/PointR40LeftB.stl" class="card-link" download>STL File B</a>
+						</div>
+					</div>
+					<div class="card" style="width: 18rem;">
+						<div id="p40rCarousel" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="pics/pointr40rplate.jpg" class="card-img-top" alt="Lego-compatible point r40 right ballast plate">
+								</div>
+								<div class="carousel-item">
+									<img src="pics/pointr40rtrack.jpg" class="card-img-top" alt="Lego-compatible point r40 right ballast plate and track">
+								</div>
+								<div class="carousel-item">
+									<img src="pics/pointr40rballast.jpg" class="card-img-top" alt="Lego-compatible point r40 right ballast plate and track ballasted">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#p40rCarousel" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#p40rCarousel" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Point R40 Right</h5>
+							<p class="card-text">Requires A, B, and <a href="straights.html">half-straight</a>.</p>
+						</div>
+						<div class="card-body">
+							<a href="files/PointR40RightA.stl" class="card-link" download>STL File A</a>
+							<a href="files/PointR40RightB.stl" class="card-link" download>STL File B</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="straights.html">Straights</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="curves.html">Curves</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="other.html">Other</a>
+				</li>
+			</ul>
+		</div>
 	</main>
 	<footer class="footer">
 		<div class="container">

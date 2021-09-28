@@ -4,69 +4,141 @@
 		<title>Curves - Bricks Ballast Plates</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
 		<link href="style.css" rel="stylesheet"/>
 	</head>
 <body class="bg-dark">
-	<main role="main" class="container">
-		<h1>Bricks Ballast Plates</h1>
-		<p></p>
-		<h2>Curves</h2>
-		<em>Available in three geometries. The schematic for the <a href="https://www.fxbricks.com/fxtrack/" target="_blank">FX Track System catalog</a> is a great resource if you are looking to make your own.</em>
+	<main role="main">
 		<div class="container">
-			<h3>Curve R40 (Single)</h3>
-			<div class="row" id="curver40">
-				<div class="col">
-				Images
-				</div>
-				<div class="col">
-				Notes
-				</div>
-				<div class="col">
-				Link
-				</div>
-			</div>
-			<h3>Curve R56 (Single)</h3>
-			<div class="row" id="curver56">
-				<div class="col">
-				Images
-				</div>
-				<div class="col">
-				Notes
-				</div>
-				<div class="col">
-				Link
-				</div>
-			</div>
-			<h3>Curve R72 (Single)</h3>
-			<div class="row" id="curver72">
-				<div class="col">
-				Images
-				</div>
-				<div class="col">
-				Notes
-				</div>
-				<div class="col">
-				Link
-				</div>
-			</div>
+			<h1>Bricks Ballast Plates</h1>
 		</div>
-		<ul class="nav">
-			<li class="nav-item">
-				<a class="nav-link" href="index.html">Home</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="straights.html">Straights</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link active" aria-current="page" href="curves.html">Curves</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="other.html">Other</a>
-			</li>
-		</ul>
+		<div class="spotlight" style="background-image: url(pics/curvestrack.jpg);"></div>
+		<div class="container">
+			<h2>Curves</h2>
+			<em>Available in three geometries. The schematic for the <a href="https://www.fxbricks.com/fxtrack/" target="_blank">FX Track System catalog</a> is a great resource if you are looking to make your own.</em>
+			<div class="container">
+				<div class="row">
+					<div class="card" style="width: 18rem;">
+						<div id="r40Carousel" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="pics/curver40plate.jpg" class="card-img-top" alt="Lego-compatible curve r40 (single) ballast plate">
+								</div>
+								<div class="carousel-item">
+									<img src="pics/curver40track.jpg" class="card-img-top" alt="Lego-compatible curve r40 (single) ballast plate and track">
+								</div>
+								<div class="carousel-item">
+									<img src="pics/curver40ballast.jpg" class="card-img-top" alt="Lego-compatible curve r40 (single) ballast plate and track ballasted">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#r40Carousel" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#r40Carousel" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Curve R40 (Single)</h5>
+							<p class="card-text">Plate for standard Lego-compatible curves.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">320mm radius on center</li>
+							<li class="list-group-item">22.5º sector</li>
+						</ul>
+						<div class="card-body">
+							<a href="files/CurveR40Single.stl" class="card-link" download>STL File</a>
+						</div>
+					</div>
+					<div class="card" style="width: 18rem;">
+						<div id="r56Carousel" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="pics/curver56plate.jpg" class="card-img-top" alt="Lego-compatible curve r56 (single) ballast plate">
+								</div>
+								<div class="carousel-item">
+									<img src="pics/curver56track.jpg" class="card-img-top" alt="Lego-compatible curve r56 (single) ballast plate and track">
+								</div>
+								<div class="carousel-item">
+									<img src="pics/curver56ballast.jpg" class="card-img-top" alt="Lego-compatible curve r56 (single) ballast plate and track ballasted">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#r56Carousel" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#r56Carousel" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Curve R56 (Single)</h5>
+							<p class="card-text">Great for smaller layouts where you want a little more realism.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">448mm radius on center</li>
+							<li class="list-group-item">22.5º sector</li>
+						</ul>
+						<div class="card-body">
+							<a href="files/CurveR56Single.stl" class="card-link" download>STL File</a>
+						</div>
+					</div>
+					<div class="card" style="width: 18rem;">
+						<div id="r72Carousel" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="pics/curver72plate.jpg" class="card-img-top" alt="Lego-compatible curve r72 (single) ballast plate">
+								</div>
+								<div class="carousel-item">
+									<img src="pics/curver72track.jpg" class="card-img-top" alt="Lego-compatible curve r72 (single) ballast plate and track">
+								</div>
+								<div class="carousel-item">
+									<img src="pics/curver72ballast.jpg" class="card-img-top" alt="Lego-compatible curve r72 (single) ballast plate and track ballasted">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#r72Carousel" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#r72Carousel" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Curve R72 (Single)</h5>
+							<p class="card-text">Smallest "realistic" radius.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">576mm radius on center</li>
+							<li class="list-group-item">22.5º sector</li>
+						</ul>
+						<div class="card-body">
+							<a href="files/CurveR72Single.stl" class="card-link" download>STL File</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="straights.html">Straights</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="curves.html">Curves</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="other.html">Other</a>
+				</li>
+			</ul>
+		</div>
 	</main>
 	<footer class="footer">
 		<div class="container">

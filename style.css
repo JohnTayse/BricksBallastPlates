@@ -1,20 +1,45 @@
-h1 {color: white}
-h3 {color: white}
-main {color: white}
+h1 {
+	color: white
+}
+h3 {
+	color: white
+}
+main {
+	color: white
+}
+.card {
+	color:black; margin:5px;
+}
+.carousel-item {
+	min-height: 250px;
+}
+.carousel-item img {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%); }
+.spotlight {
+	background-position: center center;
+	height: 250px;
+	position: relative;
+	display: table;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-position: relative;
-min-height: 100%;
+	position: relative;
+	min-height: 100%;
 }
 body {
-margin-bottom: 60px; /* Margin bottom by footer height */
+	margin-bottom: 60px; /* Margin bottom by footer height */
 }
 .footer {
-position: absolute;
-bottom: 0;
-width: 100%;
-height: 60px; /* Set the fixed height of the footer here */
-line-height: 60px; /* Vertically center the text there */
-background-color: #f5f5f5;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px; /* Set the fixed height of the footer here */
+	line-height: 60px; /* Vertically center the text there */
+	background-color: #f5f5f5;
 }
