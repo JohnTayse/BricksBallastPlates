@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Bricks Ballast Plates</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+		<link href="style.css" rel="stylesheet"/>
+	</head>
+<body class="bg-dark">
+	<main role="main" class="container">
+		<h1>Bricks Ballast Plates</h1>
+		<em>3D printable ballast plates for a variety of track types compatible with major brands like Lego and FX Track.</em>
+		<p>{Put a layout picture here}</p>
+		<p>When first getting into ballasting my Lego train tracks for my city layout (see <a href="https://youtube.com/c/TayseBricks" target="_blank">youtube.com/c/TayseBricks</a>), I came across an online retailer with full piece ballast plates to speed up the ballasting process. However, my city is very large and calculating the amount I needed, I discovered it would be similar cost to get a 3D printer and print my own. I also knew I had custom track I would not be able to find an existing solution for. This may not be a "purist" method for ballasting track, but I did not like the way curves and points are ballasted conventionally.</p>
+		<p> I went ahead with purchasing a 3D printer and after creating all the files, I figured others might be in the same position. I am making my files freely available for anyone to print their own as many as they want. I will also make more available as I need them but I will not respond to requests for geometries not listed, or third-party brand custom items I do not already have. All files are available under the GNU GPL so feel free to modify the files as needed. Track has been tested with genuine Lego, as well as third-party creators such as FX Track. I make no guarantee you will not have to make adjustments for your own track if using another third-party manufacturer. Files are tested but ultimately as-is.</p>
+		<ul>
+			<li>Models were created using <a href="https://sketchup.com/products/sketchup-for-web" target="_blank">Sketchup for Web</a>. After export, they were cleaned up with <a href="https://www.microsoft.com/en-us/p/3d-builder/9wzdncrfj3t6" target="_blank">Microsoft 3D Builder</a>. Sketchup is what I am familar with and is also free, but any 3D modeling software with fine (millimeters to the 1000th) control will work. 3D Builder comes with Windows 10. I did not track how many hours it took to design and finesse, but it was at least 50, probably closer to 100. Straights were easier than curves. The R40 Curve took maybe half-a-dozen iterations. The R40 Point took over a dozen iterations.</li>
+			<li>Printer used was the <a href="https://www.prusa3d.com/original-prusa-i3-mk3/" target="_blank">PRUSA I3 MK3S+</a> on 0.2mm Quality setting using smooth build plate and liberal amounts of glue sticks. There is not a lot of area for adhesion especially around the edges and without glue, it will peel up. Points B pieces require supports.</li>
+			<li>All prints use <a href="https://www.paramount-3d.com/product-page/pla-pantone-battleship-gray-431c-1-75mm-1kg-filament-bgrl7031431c" target="_blank">Paramount 3D PLA Battleship Gray</a>. This is about as close to Lego Dark Bley as I could find. There are other options discussed on the <a href="https://www.4dbrix.com/forum/index.php?show=000012" target="_blank">4DBrix Forum</a>. This color is also available in ABS but I did not want the hassle of printing ABS.</li>
+			<li>For more information on ballasting, see <a href="https://bricknerd.com/home/ballasting-track-the-x-factor-for-your-train-layout-6-11-21" target="_blank">Brick Nerd</a>. For anything more than a small layout, it is incredibly part, cost, and time intensive. It took me 25 days worth of printing across 4 months to complete all of the pieces for my layout, and that's before any of the work to add ties.</li>
+		</ul>
+		<h3>The Parts</h3>
+		<ul class="nav">
+			<li class="nav-item">
+			  <a class="nav-link" href="straights.html">Straights</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="curves.html">Curves</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="other.html">Other</a>
+			</li>
+		</ul>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<span class="text-muted">©<span id="currentyear"></span> - John Tayse</span>
+		</div>
+	</footer>
+</body>
+<script>
+	$('#currentyear').html(new Date().getFullYear());
+</script>
+</html>
